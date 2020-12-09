@@ -21,3 +21,16 @@
     -webkit-align-items: center;
     align-items: center;
 }
+
+.gallery-image {
+    grid-area: photo;
+}
+
+.gallery-image-disp {
+    object-fit: cover;
+    width: 100%
+}
+
+div {
+    margin-top: 5px;
+}
