@@ -13,13 +13,18 @@ body {
     color: white;
 }
 
+
+/**************Swiper**************/
+
 .swiper-container {
     width: 100%;
     height: 90vh;
 }
 
-
-/* <img src="./assets/images/banner2.jpeg" alt="" height="600vh" width="100%"> */
+.banner-image {
+    margin-top: 10vh;
+    letter-spacing: 0.3rem;
+}
 
 #banner-slide-1 {
     background-image: url(./assets/images/banner-images/1.jpeg);
@@ -37,18 +42,15 @@ body {
 }
 
 .swiper-slide {
-    /* background-image: url(./assets/images/banner-images/3.jpeg);
-    background-size: 100% 90vh; */
-    /* background-size: cover;
-    background-repeat: no-repeat; */
     text-align: center;
     font-size: 18px;
+    color: whitesmoke;
     /* background: #fff; */
     /* Center slide text vertically */
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: flex; */
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -58,6 +60,13 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
+
+#swiper-button {
+    color: white;
+}
+
+
+/****************Gallary Grid*********************/
 
 .gallery-image {
     grid-area: photo;
@@ -69,10 +78,22 @@ body {
     border-radius: 10px;
 }
 
-div {
-    margin-top: 5px;
+.gallery {
+    margin-top: 15px;
 }
 
-.banner-heading {
-    justify-items: start;
+
+/* div {
+    margin-top: 5px;
+} */
+
+.footer {
+    height: 20vh;
+    color: whitesmoke;
+    background-color: rgb(71, 70, 70);
+    align-items: baseline;
+}
+
+.footer-item {
+    margin-top: 30px;
 }
