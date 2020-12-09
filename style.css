@@ -5,6 +5,12 @@
 
 body {
     background-color: rgb(235, 235, 235);
+    font-family: 'Teko', sans-serif;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    color: white;
 }
 
 .swiper-container {
@@ -15,9 +21,24 @@ body {
 
 /* <img src="./assets/images/banner2.jpeg" alt="" height="600vh" width="100%"> */
 
-.swiper-slide {
-    background-image: url(./assets/images/Individual\ pictures/1.jpeg);
+#banner-slide-1 {
+    background-image: url(./assets/images/banner-images/1.jpeg);
     background-size: 100% 90vh;
+}
+
+#banner-slide-2 {
+    background-image: url(./assets/images/banner-images/2.jpeg);
+    background-size: 100% 90vh;
+}
+
+#banner-slide-3 {
+    background-image: url(./assets/images/banner-images/3.jpeg);
+    background-size: 100% 90vh;
+}
+
+.swiper-slide {
+    /* background-image: url(./assets/images/banner-images/3.jpeg);
+    background-size: 100% 90vh; */
     /* background-size: cover;
     background-repeat: no-repeat; */
     text-align: center;
@@ -50,4 +71,8 @@ body {
 
 div {
     margin-top: 5px;
+}
+
+.banner-heading {
+    justify-items: start;
 }

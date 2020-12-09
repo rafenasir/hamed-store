@@ -2,9 +2,12 @@
 <html>
 
 <head>
-    <title>Car Models</title>
+    <title>Modelardo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type=text/css>
+    <!--font familh-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap" rel="stylesheet">
     <!-- swiper Connection -->
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -16,16 +19,22 @@
 
 <body>
     <div class="container">
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-md-12">
-            <a class="navbar-brand" href="#"> <img src="./assets/images/4260323934_3228ccf5-12a9-42d1-80cf-0d74cc882a68.png" height="40vh" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="order-1">
+                <a class="navbar-brand" href="#"> <img src="./assets/images/logo/3nametransparent.png" height="20vh" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav order-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Cars</a>
@@ -44,15 +53,15 @@
         <div class="banner mt-20">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <h1>check this out</h1>
+                    <div class="swiper-slide" id="banner-slide-1">
+                        <h1 class="banner-heading">check this out</h1>
                         <p> test any text on the slide 1</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" id="banner-slide-2">
                         <h1>check this out</h1>
                         <p> test any text on the slide 2</p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" id="banner-slide-3">
                         <h1>heck this out</h1>
                         <p> test any text on the slide 2
                             <p>
@@ -79,31 +88,31 @@
     <section class="container ">
         <div class="row">
             <div class="gallery-image col-lg-4 col-sm-6 col-xs-6">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/1.jpeg" alt="">
                 <p>text</p>
             </div>
             <div class="gallery-image col-lg-4 col-sm-6 col-xs-6">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/2.jpeg" alt="">
 
                 <p>text</p>
             </div>
             <div class="gallery-image col-lg-4 col-sm-12">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
-                <h4>name of the car</h4>
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/3.jpeg" alt="">
+                <h3>name of the car</h3>
                 <p>detail of the car</p>
             </div>
             <div class="gallery-image col-lg-4 col-sm-12">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/4.jpeg" alt="">
 
                 <p>text</p>
             </div>
             <div class="gallery-image col-lg-4 col-sm-12">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/7.jpeg" alt="">
 
                 <p>text</p>
             </div>
             <div class="gallery-image col-lg-4 col-sm-12">
-                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/Individual pictures/3.jpeg" alt="">
+                <img class="gallery-image-disp animate__animated animate__zoomIn" src="./assets/images/main images/6.jpeg" alt="">
 
                 <p>text</p>
             </div>
