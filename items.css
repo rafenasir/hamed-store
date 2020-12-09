@@ -6,10 +6,8 @@
 body {
     background-color: rgb(235, 235, 235);
     font-family: 'Teko', sans-serif;
-}
-
-.container {
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar {
@@ -17,20 +15,44 @@ body {
     color: white;
 }
 
+
+/**************Swiper**************/
+
 .swiper-container {
     width: 100%;
-    height: auto;
+    height: 90vh;
+}
+
+.banner-image {
+    margin-top: 10vh;
+    letter-spacing: 0.3rem;
+}
+
+#banner-slide-1 {
+    background-image: url(./assets/images/banner-images/1.jpeg);
+    background-size: 100% 90vh;
+}
+
+#banner-slide-2 {
+    background-image: url(./assets/images/banner-images/2.jpeg);
+    background-size: 100% 90vh;
+}
+
+#banner-slide-3 {
+    background-image: url(./assets/images/banner-images/3.jpeg);
+    background-size: 100% 90vh;
 }
 
 .swiper-slide {
-    align-items: center;
+    text-align: center;
     font-size: 18px;
-    background: #fff;
+    color: whitesmoke;
+    /* background: #fff; */
     /* Center slide text vertically */
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: flex; */
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -45,14 +67,32 @@ body {
     color: white;
 }
 
-.individual-image {
-    width: 100%;
-    height: auto;
+
+/****************Gallary Grid*********************/
+
+.gallery-image {
+    grid-area: photo;
 }
 
-.submitt {
-    align-items: right;
+.gallery-image-disp {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
 }
+
+.gallery {
+    margin-top: 15px;
+}
+
+.car-specs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* div {
+    margin-top: 5px;
+} */
 
 .footer {
     height: 20vh;
@@ -63,4 +103,13 @@ body {
 
 .footer-item {
     margin-top: 30px;
+}
+
+.footer-list {
+    list-style: none;
+    letter-spacing: .1rem;
+}
+
+.acebook-square {
+    color: blue;
 }

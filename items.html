@@ -5,7 +5,8 @@
     <title>Modelardo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="items.css" type=text/css>
-    <!--font familh-->
+
+    <!--font family-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap" rel="stylesheet">
     <!-- swiper Connection -->
@@ -22,7 +23,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-md-12">
             <div class="order-1">
-                <a class="navbar-brand" href="#"> <img src="./assets/images/logo/3nametransparent.png" height="20vh" alt="logo">
+                <a class="navbar-brand" href="./index.html"> <img src="./assets/images/logo/3nametransparent.png" height="20vh" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -31,16 +32,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav order-0">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Home </a>
+                        <a class="nav-link" href="./index.html">HOME </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cars</a>
+                        <a class="nav-link" href="#gallery">CARS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">CONTACT US</a>
                     </li>
                     <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -50,49 +51,47 @@
         </nav>
     </div>
     <section class="container">
-        <div class="banner mt-20">
-            <div class="swiper-container col-md-12">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img class="individual-image" src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img class="individual-image" src="./assets/images/Individual pictures/2.jpeg" alt="first picture of the car">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img src="./assets/images/Individual pictures/3.jpeg" alt="first picture of the car" width="100%">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img src="./assets/images/Individual pictures/4.jpeg" alt="first picture of the car" width="100%">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car" width="100%">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" id="banner-slide-1">
-                        <div class="banner-image">
-                            <img src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car" width="100%">
-                        </div>
-                    </div>
-
+        <!-- <div class="banner"> -->
+        <div class="swiper-container col-md-12">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car" width="100%">
 
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next" id="swiper-button"></div>
-                <div class="swiper-button-prev" id="swiper-button"></div>
+                <div class="swiper-slide">
+
+                    <img src="./assets/images/Individual pictures/2.jpeg" alt="first picture of the car" width="100%">
+
+                </div>
+                <div class="swiper-slide">
+
+                    <img src="./assets/images/Individual pictures/3.jpeg" alt="first picture of the car" width="100%">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/Individual pictures/4.jpeg" alt="first picture of the car" width="100%">
+                </div>
+
+                <div class="swiper-slide">
+
+                    <img src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car" width="100%">
+
+                </div>
+                <div class="swiper-slide">
+
+                    <img src="./assets/images/Individual pictures/1.jpeg" alt="first picture of the car" width="100%">
+
+                </div>
+
 
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next" id="swiper-button"></div>
+            <div class="swiper-button-prev" id="swiper-button"></div>
+
+        </div>
         </div>
     </section>
 
@@ -112,37 +111,39 @@
         <section class="container footer">
             <div class="row">
                 <div class="footer-item col-md-4">
-                    <ul>
+                    <ul class="footer-list">
                         <li>Home</li>
                         <li>About Us</li>
-                        <li>cars</li>
+                        <li>Cars</li>
                         <li>Contact Us</li>
 
                     </ul>
                 </div>
                 <div class="footer-item col-md-4">
-                    <ul>
+                    <h5 style="letter-spacing: .1rem;"> Other Links</h5>
+
+                    <ul class="footer-list">
                         <li>Careers</li>
                         <li>Privacy Policy</li>
-                        <li>Terms of Sales</li>
                         <li>Complains</li>
 
                     </ul>
                 </div>
                 <div class="footer-item col-md-4">
-                    icon, icon icon
+                    <p><i class="fab fa-facebook-square"></i></p>
+                    <p><i class="fab fa-facebook-square"></i></p>
+                    <p><i class="fab fa-facebook-square"></i></p>
                 </div>
             </div>
         </section>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Swiper Connection -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Swiper Connection -->
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script src="./script.js"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>
